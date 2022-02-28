@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Data read errors</title>
+
+    <style>
+        .hiding {
+            display: none;
+        }
+
+        .error-type {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-type" id="error">please type corrent name</div>
+    <input type="text" name="" id="search"> <button onclick="searchText()">search</button>
+    <div class="hiding" id="spinner">
+        loading....
+    </div>
+    <div id="meals">
+        <!-- this is for spinner -->
+    </div>
+
+    <script src="api.js"></script>
+</body>
+
+</html>
